@@ -5,18 +5,20 @@
 }
 
 body{
-    display: flex;
+    /* display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100%;
+    min-height: 100%; */
     background: black;
 }
 
 .container{
     width: 800px;
     position: relative;
+    left: 25%;
+    top: 15vh;
     height: 500px;
-    background: #222;
+    background: rgb(63, 63, 63);
 }
 
 .container .clip{
@@ -30,16 +32,15 @@ body{
 
 .container .clip.clip1{
     background-image: url(/images/sasuke-clip-path.jpg);
-    background-repeat: no-repeat;
     background-size: cover;
-    clip-path: polygon(50% 68%, 0 0, 100% 0);
+    clip-path: polygon(0 12%, 50% 68%, 100% 0, 0 0);
 }
 
 .container .clip.clip2{
     background-image: url(/images/itachi-clip-path1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    clip-path: polygon(0 0, 50% 68%, 50% 100%, 0% 100%);
+    clip-path: polygon(0 12%, 50% 68%, 50% 100%, 0 100%);
 }
 
 .container .clip.clip3{
@@ -64,3 +65,10 @@ body{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
+.container:hover .clip{
+    clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
+}
+
+.container .clip:hover{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
