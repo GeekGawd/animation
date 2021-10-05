@@ -1,28 +1,35 @@
   const wheel = document.querySelector('.wheel');
-  const button = document.querySelector('.button');
-  let deg = 0;
+  const spinButton = document.querySelector('.button');
+  let spinAngle = 0;
 
   function startspin(){
-    button.style.pointerEvents = 'none';
-    deg = Math.floor(1000 + Math.random() * 2000);
+    spinButton.style.pointerEvents = 'none';
+
+    spinAngle = Math.floor(1000 + Math.random() * 2000);
 
     wheel.style.transition = 'all 6s ease-out';
 
-    wheel.style.transform = `rotate(${deg}deg)`;
+    wheel.style.transform = `rotate(${spinAngle}deg)`;
 
   }
+
+  spinButton.addEventListener('click', startspin);
 
   function endspin() {
 
-    button.style.pointerEvents = 'auto';
+    spinButton.style.pointerEvents = 'auto';
     
     wheel.style.transition = 'none';
     
-    const actualDeg = deg % 360;
+    const actualspinAngle = spinAngle % 360;
 
-    wheel.style.transform = `rotate(${actualDeg}deg)`;
+    wheel.style.transform = `rotate(${actualspinAngle}deg)`;
   }
 
-  button.addEventListener('click', startspin);
-
   wheel.addEventListener('transitionend', endspin);
+
+
+
+
+
+
