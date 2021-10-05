@@ -1,39 +1,4 @@
-/* #app {
-    width: 400px;
-    height: 400px;
-    margin: 0 auto;
-    position: relative;
-  }
-  
-  .arrow {
-    position: absolute;
-    width: 60px;
-    left: 172px;
-    top: -20px;
-    z-index: 2;
-  }
-  
-  .wheel {
-    width: 30%;
-    left: 35%;
-    position: absolute;
-  }
-  
-  .button {
-    display: block;
-    width: 250px;
-    position: absolute;
-    top: 80%;
-    left: 42%;
-  }
-  
-  .button:hover {
-    opacity: 0.8;
-    cursor: pointer;
-  }
-   */
-
-   #app {
+   #container {
     width: 400px;
     height: 400px;
     margin: 0 auto;

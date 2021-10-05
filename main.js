@@ -1,1 +1,0 @@
-const wheel = document.querySelector('wheel')
