@@ -31,7 +31,7 @@
 
     wheel.style.transition = 'all 6s ease-out';
 
-    wheel.style.transform = `rotate(${spinAngle}deg)`;
+    wheel.style.transform = "rotate(" + spinAngle+ "deg)" ;
 
   }
 
@@ -45,7 +45,7 @@
     
     const actualspinAngle = spinAngle % 360;
 
-    wheel.style.transform = `rotate(${actualspinAngle}deg)`;
+    wheel.style.transform = "rotate("+actualspinAngle+"deg)";
 
     handleWin(actualspinAngle);
   }
