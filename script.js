@@ -6,14 +6,14 @@
   let zoneSize = 45;
 
   const animals = {
-    1: "Frog",
-    2: "Snail",
-    3: "Dolphin",
-    4: "Ladybug",
-    5: "Koala",
-    6: "Unicorn",
-    7: "Dragon",   
-    8: "Snowman",
+    1: "Oops!",
+    2: "$100",
+    3: "MacBook",
+    4: "Give $100",
+    5: "1 Crore!",
+    6: "$1000",
+    7: "Jio Phone",   
+    8: "50 Paisa",
   }
 
   function handleWin (actualspinAngle){

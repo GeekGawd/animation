@@ -11,30 +11,31 @@
     display: block;
     position: absolute;
     top: 4%;
-    left: 23%;
-    width: 220px;
-    height: 50px;
-    border: 1px solid black;
+    left: 17%;
+    width: 272px;
+    height: 59px;
+    border: 5px solid black;
+    background-color: white ;
     border-radius: 20px;
     text-align: center;
     font-family: "MonteCasinoNFW01-Regular";
-    font-size: 2rem;
-    margin: 20px auto;
+    font-size: 3rem;
   }
   
   .arrow {
     position: absolute;
     width: 60px;
     left: 172px;
-    top: 102px;
+    top: 106px;
     z-index: 2;
   }
   
   .wheel {
     position: absolute;
-    top: 25%;
-    width: 100%;
-    height: 100%;
+    left: -13px;
+    top: 27%;
+    width: 107%;
+    height: 107%;
   }
   
   .button {
