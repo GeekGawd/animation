@@ -6,7 +6,7 @@
   let zoneSize = 45;
 
   const prizes = {
-    1: "Oops!",
+    1: ";-;",
     2: "$100",
     3: "MacBook",
     4: "Give $100",
