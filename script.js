@@ -27,7 +27,7 @@
 
     spinButton.style.pointerEvents = 'none';
 
-    spinAngle = Math.round(1000 + Math.random() * 2000);
+    spinAngle = Math.round(3000 + Math.random() * 2000);
 
     wheel.style.transition = 'all 6s ease-out';
 

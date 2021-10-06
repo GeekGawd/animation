@@ -1,3 +1,5 @@
+@import url(//db.onlinewebfonts.com/c/a3671e0d405786ab5ca047aa77c03bc3?family=MonteCasinoNFW01-Regular);   
+   
    #container {
     width: 400px;
     height: 400px;
@@ -6,15 +8,16 @@
   }
 
   #display {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 200px;
+    display: block;
+    position: absolute;
+    top: 4%;
+    left: 23%;
+    width: 220px;
     height: 50px;
     border: 1px solid black;
-    border-radius: 20px; 
+    border-radius: 20px;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "MonteCasinoNFW01-Regular";
     font-size: 2rem;
     margin: 20px auto;
   }
@@ -23,18 +26,23 @@
     position: absolute;
     width: 60px;
     left: 172px;
-    top: 1px;
+    top: 102px;
     z-index: 2;
   }
   
   .wheel {
+    position: absolute;
+    top: 25%;
     width: 100%;
     height: 100%;
   }
   
   .button {
     display: block;
-    width: 250px;
+    position: absolute;
+    top: 135%;
+    left: 43px;
+    width: 325px;
     margin: 40px auto;
   }
   
@@ -49,3 +57,9 @@
     box-sizing: border-box;
   }
   
+  body{
+    background-image: url(/images/bg1.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
