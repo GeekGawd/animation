@@ -5,7 +5,7 @@
   let spinAngle = 0;
   let zoneSize = 45;
 
-  const animals = {
+  const prizes = {
     1: "Oops!",
     2: "$100",
     3: "MacBook",
@@ -17,8 +17,8 @@
   }
 
   function handleWin (actualspinAngle){
-    const spiritanimal = Math.ceil(actualspinAngle/zoneSize);
-    display.innerHTML = animals[spiritanimal];
+    const prize = Math.ceil(actualspinAngle/zoneSize);
+    display.innerHTML = prizes[prize];
   }
 
   function startspin(){
